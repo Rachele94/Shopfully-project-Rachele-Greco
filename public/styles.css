@@ -1,0 +1,87 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+  .contain {
+
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 2px;
+    -webkit-box-shadow: 10px 10px 29px -1px rgba(0,0,0,0.52);
+    -moz-box-shadow: 10px 10px 29px -1px rgba(0,0,0,0.52);
+     box-shadow: 10px 10px 29px -1px rgba(0,0,0,0.52);
+     text-align:center;
+     max-width: 200px;  
+  }
+
+  .flyerDate {
+
+    font-size: 13px;
+    color: rgb(36, 36, 36);
+  }
+
+
+.imagestan {
+
+    display: flex;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+
+}
+
+.BrandName {
+  display: flex;
+}
+
+.MenuBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: beige;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(34, 34, 34)
+  
+}
+
+.MenuDrop {
+  display: flex;
+  margin: 10px;
+  background-color: transparent;
+  color: none;
+  border: none;
+
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  color: beige;
+  margin-left: 10px;
+}
+
+.liElement {
+  color: black;
+  margin: 10px;
+  padding-bottom: 10px;
+ 
+  border-bottom: 1px solid grey;
+}
+
+
+
